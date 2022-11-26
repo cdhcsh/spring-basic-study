@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-@WebServlet(name = "frontControllerServlet3",urlPatterns = "front-controller/v3/*")
+@WebServlet(name = "frontControllerServlet3",urlPatterns = "/front-controller/v3/*")
 public class FrontControllerServletV3 extends HttpServlet {
     private Map<String, ControllerV3> controllerMap = new HashMap<>();
 
